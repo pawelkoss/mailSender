@@ -30,7 +30,7 @@ public class SpringConfig {
         task();
     }
 
-    @Scheduled(cron = "${cron.string.pawel.g07}")
+    @Scheduled(cron = "${cron.string.pawel.test}")
     public void cronSchedulePawel07() {
         task();
     }
